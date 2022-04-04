@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import { auth } from "../firebase/config";
 import { listenToMyProfile } from "../services/listeners";
