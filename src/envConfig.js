@@ -10,7 +10,7 @@ const getEnvironment = () => {
 const getBaseUrl = () => {
   switch (process.env.REACT_APP_PROJECT_ENV) {
     case "production":
-      return "http://localhost:3000/";
+      return "https://e-dukan-51528.web.app/";
     default:
       return "http://localhost:3000/";
   }
